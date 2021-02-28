@@ -10,3 +10,6 @@ inputs:
 runs:
   using: "docker"
   image: "Dockerfile"
+- name: Release APK
+  uses: ShowMeThe/github_action_release@v0.01
+
